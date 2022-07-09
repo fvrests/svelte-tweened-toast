@@ -49,11 +49,11 @@
 
 <style>
 	:root {
-	  --base: #191724;
+	  --background: #1f1d2e;
 	  --border: #403d52;
 	  --text: #e0def4;
 
-	  background-color: var(--base);
+	  background-color: var(--background);
 	  color: var(--text);
 	  font-family: sans-serif;
 	  height: 100vh;
