@@ -2,6 +2,8 @@
 
 This demo accompanies a blog post, [Snippet: Ditching timeouts for Svelte's tweened library](http://fvrests.dev/notes/ditching-timeouts-for-tweened).
 
+You can preview this code on [Vercel](https://svelte-tweened-toast.vercel.app).
+
 You can also preview this code on [CodeSandbox](https://codesandbox.io/s/gifted-bell-k4fry5?file=/App.svelte).
 
 ## Usage
