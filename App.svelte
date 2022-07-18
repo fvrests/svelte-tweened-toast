@@ -80,7 +80,7 @@
 	  border-radius: 0.75rem;
 	  padding: 1rem;
 	  position: fixed;
-	  right: 2rem;
+	  right: 4rem;
 	  bottom: 4rem;
 	  z-index: 20;
 	}
