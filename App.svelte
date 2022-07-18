@@ -26,6 +26,7 @@
 
 <!-- button toggles the theme when clicked -->
 <button
+	aria-controls="toast"
 	on:click={toggleTheme}
 	title='Toggle theme'
 	aria-label='toggle theme'
@@ -37,6 +38,7 @@
 <!-- toast only shown if tweening is in progress -->
 {#if $toastProgress > 0}
 	<div
+	     	role="status"
 		class="toast"
 		transition:fly={{ y: 100, duration: 600 }}
 	>
