@@ -31,14 +31,13 @@
 	title='Toggle theme'
 	aria-label='toggle theme'
 > 
-<b>Toggle theme</b>
-	</button
->
+	<b>Toggle theme</b>
+</button>
 
 <!-- toast only shown if tweening is in progress -->
 {#if $toastProgress > 0}
 	<div
-	  role="status"
+		role="status"
 		class="toast"
 		transition:fly={{ y: 100, duration: 600 }}
 	>
